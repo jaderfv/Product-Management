@@ -43,7 +43,7 @@ $config = require __DIR__ . '/../../Yii2/config/web.php';
 -Go to /config/web.php and edit the line 'cookieValidationKey' => '' to 'cookieValidationKey' => 'setyourkey'
 
 -Now, you should allow to access throught of IP in the CRUD generator(http://localhost/web/index.php?r=gii),
-in /config/web.php, uncomment the line 'allowedIPs', insert '*' in the end of array like 'allowedIPs' => ['127.0.0.1', '::1','*']
+in /config/web.php, uncomment the line 'allowedIPs', insert ' * ' in the end of array like 'allowedIPs' => ['127.0.0.1', '::1',' * ']
 
 Part 2 - If you made a clone of project, START HERE
 
