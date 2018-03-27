@@ -1,7 +1,7 @@
 # ProductManagement
  Product and Supplier registration in PHP using Yii2 framework and Docker Server
  
- Part 1 - If you are installing e configuring the Yii2 without make a clone of Project, START HERE.
+ Part 1 - If you are installing e configuring the Yii2 without make a clone of Project, START HERE, else GO to PART 2.
  
  Download and install Docker.
 
