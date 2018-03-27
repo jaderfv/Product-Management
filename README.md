@@ -9,7 +9,7 @@ Make download Yii2 in https://www.yiiframework.com/download
 
 -Choose the option yii-basic-app-X.X.XX
 	
--Extract the folder, enter in "yii-advanced-app-X.X.XX" and you'll see a another folder called "basic", rename that to Yii2
+-Extract the folder, enter in "yii-basic-app-X.X.XX" and you'll see a another folder called "basic", rename that to Yii2
 	
 -Create a folder Docker in c:/users/yourUser/ 
 	
