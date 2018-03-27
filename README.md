@@ -41,13 +41,14 @@ Part 2 - If you made a clone of project, START HERE
 
 -Install the database that you chose.Inside the folder script contains the script of creation mysql for database ProductManagement and its tables(Product and Supplier)
 -After installed the mysql, go to /config/db.php, so put host(pay attention, here should be to put, the ip that it's in the adapter docker network in "Control Panel\Network and Internet\Network Connections",
-find a conection DockerNat, click with right button, in properties Ipv4...for example, my case was 10.0.75.1) and dbname(name givem to database).
+find a conection DockerNat, click with right button, in properties Ipv4...for example, my case was 10.0.75.1) and dbname(name given to database).
 -if a problem occurs saying that certain ip is not allowed, you must open MySql command line and type:
 			
  mysql> grant all privileges on *.* to 'root'@'%' identified by '12345';
-	mysql> flush privileges;
+ 
+ mysql> flush privileges;
 			
-	Changing the user(root) for your user and password(12345) for your password.
+Changing the user(root) for your user and password(12345) for your password.
  
  What's missing in the project?
  
