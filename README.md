@@ -6,15 +6,22 @@
  Download and install Docker.
 
 Make download Yii2 in https://www.yiiframework.com/download
-	-Choose the option yii-basic-app-X.X.XX
-	-Extract the folder, enter in "yii-advanced-app-X.X.XX" and you'll see a another folder called "basic", rename that to Yii2
-	-Create a folder Docker in c:/users/yourUser/ 
-	-Create a folder with the name of your project inside "c:/users/yourUser/Docker"
-	-Copy the folder now called "Yii2" and paste inside folder of your project (c:/users/yourUser/Docker/yourProject)
-	-Cut the folder "web" inside "Yii2" and paste in "c:/users/yourUser/Docker/yourProject", so you'll have "Yii2" and "web" in the same structure 
-	-Copy and paste the file docker-compose.yml to inside "c:/users/yourUser/Docker/yourProject", the same structure where it's "Yii2" and "web"
-	-Open the prompt(open windows's search and type CMD),go until the folder where it's the file docker-compose.yml("c:/users/yourUser/Docker/yourProject")
-	and type "docker-compose up -d" for start machine docker to run php and apache.
+
+-Choose the option yii-basic-app-X.X.XX
+	
+-Extract the folder, enter in "yii-advanced-app-X.X.XX" and you'll see a another folder called "basic", rename that to Yii2
+	
+-Create a folder Docker in c:/users/yourUser/ 
+	
+-Create a folder with the name of your project inside "c:/users/yourUser/Docker"
+	
+-Copy the folder now called "Yii2" and paste inside folder of your project (c:/users/yourUser/Docker/yourProject)
+	
+-Cut the folder "web" inside "Yii2" and paste in "c:/users/yourUser/Docker/yourProject", so you'll have "Yii2" and "web" in the         same structure 
+	
+-Copy and paste the file docker-compose.yml to inside "c:/users/yourUser/Docker/yourProject", the same structure where it's             "Yii2" and "web"
+	
+-Open the prompt(open windows's search and type CMD),go until the folder where it's the file docker-     compose.yml("c:/users/yourUser/Docker/yourProject") and type "docker-compose up -d" for start machine docker to run php and apache.
 
 -Open the file "index.php" in /web/index.php, and it must be changed that 3 lines follow:
 
