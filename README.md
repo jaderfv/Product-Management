@@ -25,9 +25,9 @@ Make download Yii2 in https://www.yiiframework.com/download
 
 -Open the file "index.php" in /web/index.php, and it must be changed that 3 lines follow:
 
-require __DIR__ . '/../vendor/autoload.php';
+require  __ DIR __  . '/../vendor/autoload.php';
 
-require __DIR__ . '/../vendor/yiisoft/yii2/Yii.php';
+require  __ DIR __  . '/../vendor/yiisoft/yii2/Yii.php';
 
 $config = require __DIR__ . '/../config/web.php';
 		
