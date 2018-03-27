@@ -19,14 +19,19 @@ Make download Yii2 in https://www.yiiframework.com/download
 -Open the file "index.php" in /web/index.php, and it must be changed that 3 lines follow:
 
 require __DIR__ . '/../vendor/autoload.php';
+
 require __DIR__ . '/../vendor/yiisoft/yii2/Yii.php';
+
 $config = require __DIR__ . '/../config/web.php';
 		
 change to: 
 
 require __DIR__ . '/../../Yii2/vendor/autoload.php';
+
 require __DIR__ . '/../../Yii2/vendor/yiisoft/yii2/Yii.php';
+
 $config = require __DIR__ . '/../../Yii2/config/web.php';
+
 
 -Go to /config/web.php and edit the line 'cookieValidationKey' => '' to 'cookieValidationKey' => 'setyourkey'
 -Now, you should allow to access throught of IP in the CRUD generator(http://localhost/web/index.php?r=gii),
