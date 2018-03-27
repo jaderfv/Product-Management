@@ -29,15 +29,15 @@ require  __ DIR __  . '/../vendor/autoload.php';
 
 require  __ DIR __  . '/../vendor/yiisoft/yii2/Yii.php';
 
-$config = require __DIR__ . '/../config/web.php';
+$config = require __ DIR __ . '/../config/web.php';
 		
 change to: 
 
-require __DIR__ . '/../../Yii2/vendor/autoload.php';
+require __ DIR __ . '/../../Yii2/vendor/autoload.php';
 
-require __DIR__ . '/../../Yii2/vendor/yiisoft/yii2/Yii.php';
+require __ DIR __ . '/../../Yii2/vendor/yiisoft/yii2/Yii.php';
 
-$config = require __DIR__ . '/../../Yii2/config/web.php';
+$config = require __ DIR __ . '/../../Yii2/config/web.php';
 
 
 -Go to /config/web.php and edit the line 'cookieValidationKey' => '' to 'cookieValidationKey' => 'setyourkey'
