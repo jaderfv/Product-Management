@@ -34,14 +34,17 @@ $config = require __DIR__ . '/../../Yii2/config/web.php';
 
 
 -Go to /config/web.php and edit the line 'cookieValidationKey' => '' to 'cookieValidationKey' => 'setyourkey'
+
 -Now, you should allow to access throught of IP in the CRUD generator(http://localhost/web/index.php?r=gii),
 in /config/web.php, uncomment the line 'allowedIPs', insert '*' in the end of array like 'allowedIPs' => ['127.0.0.1', '::1','*']
 
 Part 2 - If you made a clone of project, START HERE
 
 -Install the database that you chose.Inside the folder script contains the script of creation mysql for database ProductManagement and its tables(Product and Supplier)
+
 -After installed the mysql, go to /config/db.php, so put host(pay attention, here should be to put, the ip that it's in the adapter docker network in "Control Panel\Network and Internet\Network Connections",
 find a conection DockerNat, click with right button, in properties Ipv4...for example, my case was 10.0.75.1) and dbname(name given to database).
+
 -if a problem occurs saying that certain ip is not allowed, you must open MySql command line and type:
 			
  mysql> grant all privileges on *.* to 'root'@'%' identified by '12345';
@@ -53,6 +56,7 @@ Changing the user(root) for your user and password(12345) for your password.
  What's missing in the project?
  
  -create scripts to table Supplier and Product
+ 
  -create crud for both tables.
  
  It Will be done soon.
