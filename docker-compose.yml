@@ -1,0 +1,14 @@
+version: '2'
+services:
+ web:
+  container_name: ProductManagement
+  image: eboraas/apache-php
+  #mem_limit: 2048m
+  ports:
+    - "80:80"
+  volumes:
+    - ./web:/var/www/html/web
+    - ./Yii2:/var/www/Yii2/
+    #- ./Yii2:/var/www/Yii2/
+  #extra_hosts:
+    #- "desenvDocker:192.168.99.100"
