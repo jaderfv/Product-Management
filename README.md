@@ -1,7 +1,7 @@
 # ProductManagement
  Product and Supplier registration in PHP using Yii2 framework and Docker Server
  
- Part 1 - If you are installing e configuring the Yii2 without make a clone of Project, START HERE, else GO to PART 2.
+ Part 1 - If you are installing and configuring the Yii2 without make a clone of Project, START HERE, else GO to PART 2.
  
  Download and install Docker.
 
@@ -60,10 +60,6 @@ find a conection DockerNat, click with right button, in properties Ipv4...for ex
 			
 Changing the user(root) for your user and password(12345) for your password.
  
- What's missing in the project?
- 
- -create scripts to table Supplier and Product
- 
- -create crud for both tables.
- 
- It Will be done soon.
+For create news models and CRUD, you should to access ( http://localhost/web/index.php?r=gii )
+
+and to access the main page of project( http://localhost/web/ ).
